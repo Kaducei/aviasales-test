@@ -1,0 +1,22 @@
+.ticketList {
+  display: flex;
+  flex-direction: column;
+}
+.ticketContainer {
+  width: 40vw;
+  margin: 0 auto;
+}
+.filter-group {
+  width: 100% !important;
+  display: flex !important;
+}
+.filter-button {
+  padding: 10px !important;
+  flex: 1 !important;
+  display: flex !important;
+  height: 100% !important;
+  justify-content: center !important;
+}
+.ticketList .ant-spin span {
+  top: 5vh;
+}

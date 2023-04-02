@@ -1,0 +1,49 @@
+ul {
+  list-style: none;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+.ant-checkbox-group {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.ant-checkbox-wrapper {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  margin-left: 0px !important;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.checkBoxGroup label {
+  width: 100%;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  margin-left: 0px !important;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.checkBoxGroup:hover {
+  background: #f1fcff;
+}
+
+.ant-checkbox-wrapper:hover {
+  background: #f1fcff;
+}
+.checkBox-label {
+  display: flex;
+  padding: 12px 15px 12px 15px !important;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
